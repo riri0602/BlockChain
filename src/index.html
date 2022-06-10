@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <title>투표 페이지</title>
+    <style>
+        @font-face {
+        font-family: 'EliceDigitalBaeum_Bold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EliceDigitalBaeum_Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        }
+        p, body {
+            font-size:20px;
+            font-family: 'EliceDigitalBaeum_Bold';
+            color: black;
+            text-align: center;
+        }
+        .image-box {
+            width: 1920px;
+            height: 1080px;
+            background-image: url(images/메인_페이지.jpg);
+            background-size: cover;
+            margin: auto;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(121, 141, 196);
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a.active {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .navbar a.right {
+            float: right;
+        }
+        </style>
+</head>
+
+<body>
+    
+        <div class="navbar">
+            <a href="/" class="active">메인</a> 
+            <a href="vote.html">투표 하기</a> 
+            <a href="result.html">결과 보기</a>
+            <a href="https://github.com/riri0602" class="right"><img src="images/GitHub-Mark-32px.png"></a>
+        </div>
+
+    <!-- 로딩바 -->
+    <div id="loader">
+        <p>로딩중...</p>
+    </div>
+
+    <!-- 메인 페이지 -->
+        <div class="image-box">
+        </div>
+    </div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

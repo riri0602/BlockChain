@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>투표 페이지</title>
+    <style>
+        @font-face {
+        font-family: 'EliceDigitalBaeum_Bold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EliceDigitalBaeum_Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        }
+        h1, p {
+            font-family: 'EliceDigitalBaeum_Bold';
+            color: black;
+            margin-left: 30px;
+        }
+        body {
+            font-family: 'EliceDigitalBaeum_Bold';
+            font-size:20px;
+            text-align: center;
+        }
+        td, th {
+            font-family: 'EliceDigitalBaeum_Bold';
+            border : 1px solid black;
+            border-collapse : collapse;
+            text-align: center;
+        }
+        h1, result {
+            margin-top: 70px;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(121, 141, 196);
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a.active {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .navbar a.right {
+            float: right;
+        }
+        table {
+            height : 200px;
+            margin-left: 25.5%;
+        }
+        th, td {
+            text-align: center;
+        }
+        </style>
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <a href="/">메인</a> 
+        <a href="vote.html">투표 하기</a> 
+        <a href="result.html"  class="active">결과 보기</a> 
+        <a href="https://github.com/riri0602" class="right"><img src="images/GitHub-Mark-32px.png"></a>
+    </div>
+    
+      <h1>투표 결과</h1>
+      <br>
+
+      <!-- 로딩바 -->
+      <div id="loader">
+          <p>로딩중...</p>
+      </div>
+  
+        <!-- 투표결과 표시 -->
+        <table class="result" brder="" style="width: 50%">
+            <colgroup>
+                <col width="15%">
+                <col width="70%">
+                <col width="15%">
+            </colgroup>
+                <tr>
+                    <th>기호</th>
+                    <th>이름</th>
+                    <th>득표수</th>
+                </tr>
+            <tbody id="candidatesResults">
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <h1>감사합니다</h1>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
