@@ -36,7 +36,6 @@
 
 =======
 ### -2. 설정
->>>>>>> c3b2a5dc08bba7993684ea46fb67fb18834658cf
 * truffle migrate 초기화
 <pre><code>election> truffle migrate --reset</code></pre>
 
