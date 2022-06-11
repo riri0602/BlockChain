@@ -25,6 +25,7 @@
 * Metamask
 * (Solidity v0.5.16)
 
+<<<<<<< HEAD
 ### -2. 실행
 * Ganache 실행
 <br>
@@ -33,6 +34,9 @@
 </p>
 <br>
 
+=======
+### -2. 설정
+>>>>>>> c3b2a5dc08bba7993684ea46fb67fb18834658cf
 * truffle migrate 초기화
 <pre><code>election> truffle migrate --reset</code></pre>
 
