@@ -34,8 +34,6 @@
 </p>
 <br>
 
-
-### -2. 설정
 * truffle migrate 초기화
 <pre><code>election> truffle migrate --reset</code></pre>
 
@@ -56,6 +54,13 @@
 <p align="center">
   <img src="/images/ganache_1.jpg" align="center" width="60%">
   <img src="/images/metamask_2.jpg" align="center" width="35%">
+</p>
+<br>
+
+* Network 추가(port 3000)
+<br>
+<p align="center">
+  <img src="/images/metamask_5.jpg" align="center" width="60%">
 </p>
 <br>
 
