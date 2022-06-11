@@ -30,7 +30,7 @@
 * Ganache 실행
 <br>
 <p align="center">
-<img src="/images/metamask_0.jpg" align="center" width="35%"></img>
+<img src="/images/metamask_0.jpg" align="center" width="60%"></img>
 </p>
 <br>
 
